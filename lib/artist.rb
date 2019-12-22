@@ -26,6 +26,6 @@ attr_accessor :name
   end
 
   def genres
-    songs.map(&:genre)
+    songs.map{|song| song.genre}
   end
 end
