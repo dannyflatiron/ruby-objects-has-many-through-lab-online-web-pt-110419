@@ -14,6 +14,8 @@ attr_reader
     @@all
   end
 
-
+  def appointments
+    
+  end
 
 end
