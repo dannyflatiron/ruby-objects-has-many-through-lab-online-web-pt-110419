@@ -17,6 +17,6 @@ attr_reader
   def new_appointments
   end
 
-  end
+  
 
 end
