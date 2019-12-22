@@ -16,7 +16,7 @@ attr_reader
 
   def new_appointment(patient, date)
     # given a patient and date <-----these are the arguments
-    Appointment.new(patient, date, self)
+    Appointment.new(date, patient, self)
     # creates a new appointment belonging to that Patient
     # have to create a new appointment
   end
