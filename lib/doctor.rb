@@ -21,6 +21,10 @@ attr_reader
     # have to create a new appointment
   end
 
+  def appointments
+    
+  end
+
 
 
 end
