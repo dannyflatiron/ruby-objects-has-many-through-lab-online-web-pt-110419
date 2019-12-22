@@ -26,6 +26,8 @@ attr_reader
   end
 
   def patients
+    # patient has many patients, through appointments
+    appointments.map { |appointment| appointment.patient  }
   end
 
 
