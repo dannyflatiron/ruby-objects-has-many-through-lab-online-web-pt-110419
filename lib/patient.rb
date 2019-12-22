@@ -18,7 +18,7 @@ def new_appointment(doctor, date)
 end
 
 def appointments
-  Appointment.all.map {|appointment| appointment.patient == self}
+  Appointment.all.select {|appointment| appointment.patient == self}
 end
 
 
