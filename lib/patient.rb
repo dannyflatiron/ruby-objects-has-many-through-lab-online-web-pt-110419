@@ -22,7 +22,7 @@ def appointments
 end
 
 def doctors
-  appointments.map { |appointment| appointment.patient  }
+  appointments.map { |appointment| appointment.doctor  }
 end
 
 
