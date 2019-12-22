@@ -1,7 +1,7 @@
 class Doctor
 
 attr_accessor :name
-attr_reader 
+attr_reader
 
 @@all = []
 
