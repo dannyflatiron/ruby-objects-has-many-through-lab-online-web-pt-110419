@@ -14,8 +14,9 @@ attr_reader
     @@all
   end
 
-  def appointments
-    
+  def new_appointment
+  end
+
   end
 
 end
