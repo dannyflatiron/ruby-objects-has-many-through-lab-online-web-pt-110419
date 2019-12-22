@@ -15,7 +15,7 @@ attr_reader :name
   end
 
   def artists
-    songs.collect { |song| song.self  }
+    songs.collect { |song| song.artist  }
   end
 
   def self.all
