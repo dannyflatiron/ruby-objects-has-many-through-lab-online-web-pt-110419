@@ -4,10 +4,8 @@ attr_accessor :name
 
 @@all = []
 
- def initialize(name, date, patient)
+ def initialize(name)
    @name = name
-   @date = date
-   @patient = patient
    @@all << self
  end
 
