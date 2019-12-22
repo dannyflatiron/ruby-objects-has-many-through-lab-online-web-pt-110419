@@ -11,4 +11,8 @@ attr_accessor :date, :patient, :doctor
     @doctor = doctor
     @@all << self
   end
+
+  def self.all
+    @@all
+  end
 end
