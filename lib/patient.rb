@@ -14,7 +14,7 @@ def self.all
 end
 
 def new_appointment(doctor, date)
-  Patient.new(doctor, date, self)
+  Patient.new(date, doctor, self)
 end
 
 
