@@ -7,7 +7,8 @@ attr_reader
 
   def initialize(name)
     @name = name
-    @@all << @name
+    @@all << self
+    
   end
 
 
