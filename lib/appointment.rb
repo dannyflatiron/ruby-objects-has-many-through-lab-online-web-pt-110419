@@ -12,6 +12,9 @@ attr_accessor :date, :patient, :doctor
     @@all << self
   end
 
+  # have to create a new appointment
+
+
   def self.all
     @@all
   end
